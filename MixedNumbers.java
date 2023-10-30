@@ -34,6 +34,7 @@ public class MixedNumbers {
 
             // Check if square root is an even number
             if (sqrt % 2 == 0) {
+                //print if even number
                 System.out.println(sqrt);
             }
         }
@@ -42,9 +43,9 @@ public class MixedNumbers {
     public static void withStream(List<Integer> numbers) {
 
         numbers.stream()
-                .sorted()
-                .map(Math::sqrt)
-                .filter(sqrt -> sqrt % 2 == 0)
-                .forEach(System.out::println);
+                .sorted() //Sort the ArrayList numbers
+                .map(Math::sqrt) // Find the square root of each number
+                .filter(sqrt -> sqrt % 2 == 0) // choose only the even square root numbers
+                .forEach(System.out::println); // print the even numbers only 
     }
 }
