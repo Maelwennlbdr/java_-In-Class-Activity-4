@@ -3,4 +3,4 @@
 
 In-Class-Activity#4
 Group 4
-Albane COiffe - Alexandre Bussière - Maelwenn Labidurie
+Albane Coiffe - Alexandre Bussière - Maelwenn Labidurie
